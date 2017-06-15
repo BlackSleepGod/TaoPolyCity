@@ -1,0 +1,440 @@
+.message{
+	margin: 24px auto 8px;
+	width: 1190px;
+	height: 18px;
+	line-height: 18px;
+	overflow: hidden;
+}
+.message .m_left{
+	float: left;
+}
+.message .m_left i{
+	margin: 0 4px;
+}
+.message .m_right{
+	float: right;
+}
+.main{
+	width: 1190px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.main_left{
+	float: left;
+	width: 228px;
+
+}
+.main_left .left_top{
+	padding: 0 13px 0 0;
+	background: #fafbfc;
+}
+.main_left h3{
+	margin-left: 18px;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+    height: 47px;
+    border-bottom: 2px solid #f3f4f6;
+    line-height: 54px;
+    text-indent: 6px;
+    position: relative;
+}
+.main_left h3 .lab{
+	position: absolute;
+	top: 47px;
+	width: 80px;
+	height: 2px;
+	background: #36ab87;
+	display: block;
+}
+.main_left .rank_list{
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+.main_left .rank_list li{
+	position: relative;
+	border-bottom: 1px dashed #e7e7e7;
+	height: 88px;
+}
+.main_left .rank_list li a{
+	display: block;
+	float: left;
+	height: 54px;
+	width: 76px;
+	margin-left: 3px;
+	margin-top: 15px;
+}
+.main_left .rank_list li a img{
+	width:100%;
+	height: 100%;
+}
+.main_left .rank_list li .txt{
+	float: right;
+	margin-top: 15px;
+	width: 108px;
+}
+.main_left .rank_list li .rank_lab{
+	width: 20px;
+	height: 24px;
+	position: absolute;
+	top: 8px;
+	left: 0;
+	display: block;
+	text-align: center;
+	line-height: 24px;
+	color: #fff;
+	background: url(../img/comico.png);
+	background-position: -5px -592px;
+}
+.main_left .rank_list li:hover .txt p:first-child{
+	color: #36ab87;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.main_left .rank_list li:hover .txt p:last-child{
+	color: #F74A4A;
+}
+
+.main_left .f2,.f3{
+	margin-top: 10px;
+}
+.main_left .f3 .del_btn{
+	display: block;
+	line-height: 13px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.main_right{
+	float: right;
+}
+.main_right .details{
+	width: 952px;
+	padding: 30px 0 14px 0;
+	background: #fafbfc;
+}
+.main_right .details .det_top{
+	width: 888px;
+	height: 360px;
+	margin-left: 58px;
+}
+.main_right .details .det_top .det_t_left{
+	float: left;
+	margin-top: 35px;
+}
+.main_right .details .det_top .det_t_left .magglass{
+	position: relative;
+	width: 260px;
+	height: 153.4px;
+	background: url(../img/pkg-8150.jpg);
+	background-size: 100% 100%;
+}
+.main_right .details .det_top .det_t_left .magglass img{
+	width: 260px;
+	height: 153.4px;
+}
+.main_right .details .det_top .det_t_left .magglass .glass{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 97.5px;
+	width: 97.5px;
+	background: pink;
+	opacity: 0.7;
+	display: none;
+}
+.main_right .details .det_top .det_t_left .magglass .smallpic{
+	height: 153.4px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 260px;
+	opacity: 0;
+}
+.main_right .details .det_top .det_t_left .magglass .bigpic{
+	position: absolute;
+	left: 260px;
+	top: 0;
+	height: 300px;
+	width: 300px;
+	background: url(../img/img/pkg-8150.jpg);
+	display: none;
+}
+.main_right .details .det_top .det_t_left .magglass .glass_btn{
+	position: absolute;
+	display: block;
+	width: 16px;
+	height: 15px;
+	right: 0;
+	bottom: -17px;
+	background: url(../img/comico.png);
+	background-position: -5px -969px;
+}
+.main_right .details .det_top .det_t_left .collect{
+	display: block;
+	height: 25px;
+	margin-top: 6px;
+	line-height: 27px;
+	text-align: center;
+	color: #9f9f9f;
+	text-decoration: none;
+}
+.main_right .details .det_top .det_t_left .collect:hover{
+	color: #9f9f9f;
+}
+.main_right .details .det_top .det_t_left .collect i{
+	display: inline-block;
+	background: url(../img/comico.png);
+	background-position: -5px -525px;
+	width: 16px;
+	height: 16px;
+	vertical-align: top;
+	margin-top: 4px;
+}
+.main_right .details .det_top .det_t_right{
+	float: left;
+	margin-left: 23px;
+}
+.main_right .details .det_top .det_t_right h2{
+	width: 450px;
+	text-align: left;
+	
+	margin-top: 10px;
+	color: #2e2e2e;
+	font-size: 18px;
+	overflow: hidden;
+}
+.main_right .details .det_top .det_t_right h2 .tle{
+	line-height: 30px;
+	height: 30px;
+	display: inline-block;
+	text-indent: 15px;
+	float: left;
+}
+.main_right .details .det_top .det_t_right h2 .has{
+	float: left;
+	display: inline-block;
+	width: 44px;
+	height: 20px;
+	margin: 5px 0 0  6px;
+	line-height: 20px;
+	background: #6bc5e7;
+	color: #fff;
+	border-radius: 4px;
+	font-size: 12px;
+	text-indent: 0;
+	text-align: center;
+	display: none;
+}
+.main_right .details .det_top .det_t_right .comico{
+	margin-top: 6px;
+	padding-top: 10px;
+	height: 66px;
+	width: 456px;
+	background: url(../img/comico.png);
+	background-position: -5px -143px;
+	margin-bottom: 18px;
+}
+.main_right .details .det_top .det_t_right .comico p{
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #606060;
+	padding-left: 15px;
+}
+.main_right .details .det_top .det_t_right .comico p:first-child{
+	text-decoration: line-through;
+}
+.main_right .details .det_top .det_t_right .comico p .price{
+	font-size: 24px;
+	font-weight: bold;
+	color: #ff5900;
+	vertical-align: top;
+}
+.main_right .details .det_top .det_t_right .p1{
+	height: 30px;
+	line-height: 30px;
+	text-indent: 15px;
+	font-size: 14px;
+	color: #606060;
+}
+.main_right .details .det_top .det_t_right .add_btn{
+	font-size: 18px;
+	margin: 10px 9px 0 15px;
+	display: block;
+	width: 142px;
+	height: 42px;
+	text-align: center;
+	color: #fff;
+	background: #ff5900;
+	line-height: 42px;
+	float: left;
+}
+.main_right .details .det_top .det_t_right .add_btn:hover{
+	background: #f25806;
+	text-decoration: none;
+}
+.main_right .details .det_top .det_t_right .give_btn{
+	font-size: 18px;
+	margin: 10px 9px 0 15px;
+	display: block;
+	width: 142px;
+	height: 42px;
+	text-align: center;
+	color: #fff;
+	background: #259afe;
+	line-height: 42px;
+	float: left;
+}
+.main_right .details .det_top .det_t_right .give_btn:hover{
+	background: #1c91f5;
+	text-decoration: none;
+}
+.main_right .details .det_main{
+	margin: 36px 20px 20px;
+	    border: 1px solid #ddd;
+}
+.main_right .details .det_main .det_nav{
+	margin: 17px 0 0 75px;
+	height: 20px;
+	width: 705px;
+	position: relative;
+	background: #fff url(../img/comico.png);
+	background-position: -5px -229px;
+}
+.main_right .details .det_main .det_nav a{
+	display: block;
+	height: 20px;
+	width: 75px;
+	position: absolute;
+
+	font-size: 14px;
+	color: #222;
+	font-weight: bold;
+	background: #fff;
+	line-height: 35px;
+	text-align: center;
+}
+.main_right .details .det_main .det_nav .a1{
+		left: -75px;
+	top: -11px;
+}
+.main_right .details .det_main .det_nav .phone_code{
+	right: -75px;
+	top: -11px;
+}
+.main_right .details .det_main .det_nav .phone_code s{
+	display: block;
+	position: absolute;
+	width: 45px;
+	height: 28px;
+	right: -45px;
+	top: 0;
+	background: url(../img/comico.png);
+	background-position: -5px -347px;
+}
+.main_right .details .det_main .det_nav .phone_code i{
+
+	width: 166px;
+	height: 174px;
+	background: url(../img/code.png);
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: -192px;
+	right:-45px ;
+	display: none;
+}
+.main_right .details .det_main .det_nav a:hover{
+	text-decoration: none;
+}
+.main_right .details .det_main .det_nav .phone_code:hover s{
+	background-position: -142px -347px;
+}
+.main_right .details .det_main .det_nav .phone_code:hover i{
+	display: block;
+}
+.main_right .details .det_main .bag{
+	width: 84%;
+	padding: 30px 8% 0;
+	font-size: 14px;
+	line-height: 32px;
+}
+.main_right .details .det_main .main_video{
+	padding: 30px 8% 0;
+	width: 84%;
+}
+.main_right .details .det_main .main_video video{
+	width: 480px;
+	height: 400px;
+	margin: 10px 0;
+}
+/*以上是详情部分************************/
+.main_right .store{
+	padding: 16px 10px 0;
+	background: #fafbfc;
+	margin-top: 20px;
+}
+.main_right .store h3{
+	height: 27px;
+	border-bottom: 2px solid #f3f4f6;
+	position: relative;
+	text-indent: 10px;
+	font-size: 16px;
+	color: #222;
+	line-height: 29px;	
+}
+.main_right .store h3 span{
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 80px;
+	background: #36ab87;
+}
+.main_right .store h3 a{
+	position: absolute;
+	right: 0;
+	font-size: 12px;
+	color: #1994eb;
+	cursor: pointer;
+}
+.main_right .store h3 a:hover{
+	color: #1994eb;
+	text-decoration: none;
+}
+.main_right .store .store_list{
+	overflow: hidden;
+}
+.main_right .store .store_list li{
+	width: 279px;
+	margin-right: 18px;
+	padding: 25px 6px;
+	overflow: hidden;
+	float: left;
+}
+.main_right .store .store_list li img{
+	width: 120px;
+	height: 114px;
+	float: left;
+}
+.main_right .store .store_list li .txt{
+	float: left;
+	margin-left: 10px;
+}
+.main_right .store .store_list li .txt strong{
+	font-size: 14px;
+	margin-top: 5px;
+	display: block;
+	height: 22px;
+	color: #2e2e2e;
+}
+.main_right .store .store_list li .txt p{
+	margin-top: 5px;
+	height: 21px;
+}
+.main_right .store .store_list li .txt p span{
+	color: #ff5900;
+	font-size: 14px;
+	font-weight: bold;
+}

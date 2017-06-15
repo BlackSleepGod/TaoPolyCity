@@ -1,0 +1,263 @@
+body{
+	background: #f3f4f6;
+    color: #2e2e2e;
+}
+.stick{
+	position: fixed;
+	bottom: 215px;
+	right: 20px;
+	z-index: 1000;
+}
+.stick .back{
+	height: 49px;
+	width: 68px;
+	border:  1px solid #e1e1e1;
+	display: block;
+	background: #fff;
+	padding: 7px 0;
+	text-align: center;
+}
+.stick .back s{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/bg.png);
+	background-position: -122px -153px;
+	margin: 0 auto;
+}
+.stick .feedback{
+	display: block;
+	width: 68px;
+	height: 19px;
+	padding: 7px 0;
+	border:  1px solid #e1e1e1;
+	text-align: center;
+	background: #fff;
+	margin-top: 3px;
+}
+.stick a:hover{
+	background: #36ab87;
+	color: #fff;
+	text-decoration: none;
+	border-color: #36ab87 ;
+}
+.stick a:hover s{
+	background-position:  -162px -153px;
+}
+/*以上是stick部分*******************************/
+.header{
+	height: 30px;
+	background: #F9F9F9;
+	color: #666;
+}
+.header_inner{
+	width: 1190px;
+	margin: 0 auto;
+}
+.header_inner i{
+	font-style: normal;
+	color: #e7e7e7;
+	margin: 0 5px;
+}
+.header_inner .left{
+	float: left;
+	line-height: 30px;
+}
+.header_inner a{
+	margin: 0;
+	display: inline-block;
+	cursor: pointer;
+}
+.header_inner a:hover{
+	color: #666;
+}
+.header_inner .left a:nth-child(1) s{
+	display: inline-block;
+	width: 11px;
+	height: 16px;
+	background: url(../img/indexico.png)no-repeat;
+	background-position: -42px -823px;
+	margin: 7px 0px 0 0;
+	vertical-align: top;
+}
+.header_inner .right{
+	float: right;
+}
+.header_inner .right .login{
+	display: inline-block;
+}
+.header_inner .right s{
+	display: inline-block;
+	width: 12px;
+	height: 9px;
+	margin-left: 5px;
+	background: url(../img/icon.png)no-repeat;
+	background-position:0 -56px ;
+}
+.header_inner .right a:nth-child(11){
+	padding-left: 8px;
+	margin-top: 5px;
+	height: 21px;
+	width: 72px;
+	background: url(../img/icon.png)no-repeat;
+	background-position: -20px -334px;
+	
+}
+.header_inner .right .login span:hover{
+	color: #ff8400;
+	cursor: pointer;
+}
+/*以上是header部分****************************/
+.nav{
+	background: url(../img/bg-head.jpg)no-repeat top center;
+	min-height: 179px;
+}
+.search{
+	height: 125px;
+	margin: 0 auto;
+	width: 1190px;
+	overflow: hidden;
+}
+.search .login{
+	margin-top: 37px;
+	float: left;
+}
+.search .login a{
+	display: block;
+	height: 52px;
+	width: 280px;
+	background: url(../img/navico.png);
+	background-position: -670px -5px;
+}
+.search .search_box{
+	float: left;
+	margin: 39px 65px 0 100px;
+	width: 522px;
+	height: 51px;
+	background: url(../img/navico.png);
+	background-position: -999px 0;
+	position: relative;
+}
+.search .search_box input{
+	padding: 14px 10px 15px 10px;
+	margin: 1px 0 0 6px;
+	width: 450px;
+	height: 18px;
+    line-height: 18px;
+    border: 0;
+    color: #9f9f9f;
+    font-size: 14px;
+    background: none;
+    float: left;
+    outline: none;
+    cursor: auto;
+}
+.search .search_box a{
+	position: absolute;
+    top: 2px;
+    right: 0;
+   	
+    width: 49px;
+    height: 46px;
+	background: url(../img/navico.png);
+	background-position: -1558px 0;
+}
+.search .login_lol{
+	margin-top: 37px;
+	width: 223px;
+	height: 59px;
+	float: left;
+}
+.search .login_lol a{
+	display: block;
+	height: 59px;
+	width: 223px;
+	background: url(../img/navico.png);
+	background-position: -437px -5px;
+}
+.nav_list{
+	width: 1190px;
+	height: 76px;
+	margin: 0 auto;
+	background: url(../img/navico.png);
+	background-position: -5px -187px;
+	overflow: hidden;
+}
+.nav_list .list{
+	float: left;
+}
+.nav_list .list li{
+	float: left;
+	width: 134px;
+	height: 76px;
+}
+.nav_list .list li a{
+	float: left;
+	width: 134px;
+	height: 76px;
+	font-size: 18px;
+	line-height: 76px;
+	text-align: center;
+	color: #9f9f9f;
+}
+.nav_list .list li a:hover{
+	color: #ff5900;
+	text-decoration: none;
+}
+.nav_list .cart{
+	float: right;
+	width: 192px;
+	height: 76px;
+	line-height: 76px;
+	text-align: center;
+	font-size: 18px;
+
+}
+.nav_list .cart a{
+		color: #ff5900;
+}
+.nav_list .cart a:hover{
+	text-decoration: none;
+}
+.nav_list .cart a s{
+	display: inline-block;
+	width: 28px;
+	height: 24px;
+	margin-top: 26px;
+	vertical-align: top;
+	background: url(../img/navico.png);
+	background-position: -237px -5px;
+}
+.nav_list .cart a i{
+	font-style: normal;
+}
+/*以上是nav部分*************************/
+.son_list{
+	width: 1190px;
+	height: 55px;
+	margin: 0 auto;
+}
+.son_list ul{
+	height: 54px;
+	background: #e6e6e8;
+	overflow: hidden;
+}
+.son_list ul li{
+	float: left;
+	text-align: center;
+}
+.son_list ul li:first-child a{
+	width: 152px;
+}
+.son_list ul li a{
+	float: left;
+	width: 118px;
+	height: 52px;
+	line-height: 52px;
+	font-size: 14px;
+	color: #222;
+}
+.son_list ul li a:hover{
+	color: #36ab87;
+	text-decoration: none;
+}

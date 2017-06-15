@@ -1,0 +1,230 @@
+.message{
+	margin: 24px auto 8px;
+	width: 1190px;
+	height: 18px;
+	line-height: 18px;
+	overflow: hidden;
+}
+.message .m_left{
+	float: left;
+}
+.message .m_left i{
+	margin: 0 4px;
+}
+
+/*以下是main部分*************************/
+.main{
+	width: 1190px;
+	margin: 0 auto;
+	background: #FAFBFC;
+	padding-left:22px ;
+}
+.main h3{
+	width: 1146px;
+	height: 22px;
+	font-size: 14px;
+	color: #222;
+	border-bottom: 1px solid #ddd;
+	text-indent: 2px;  
+	margin-bottom: 14px;
+}
+.main .add{
+	padding-top: 18px;
+}
+.main .add p{
+	margin-top: 24px;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.main .add p strong{
+	padding: 0 5px;
+}
+.main .add p a{
+	margin: 2px 0 0 20px;
+	padding: 0 10px;
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+	color: #fff;
+	background: #f74a4a;
+}
+.main .add p a:hover{
+	background: #e43333;
+	text-decoration: none;
+}
+.main .cartlist{
+	padding-top: 15px;
+	width: 1143px;
+}
+.main .cartlist .listbox{
+	background: #f3f4f6;
+	padding: 0 16px;
+}
+.main .cartlist .listbox table{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+.main .cartlist .listbox table thead th{
+	font-weight: normal;
+    font-size: 14px;
+    color: #222;
+    padding: 8px 0;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+.main .cartlist .listbox table td{
+	font-weight: normal;
+    font-size: 14px;
+    color: #222;
+    padding: 8px 0;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+.main .cartlist .listbox table .first{
+	text-align: left;
+}
+.main .cartlist .listbox table .first img{
+	width: 39px;
+	height: 28px;
+	margin-right: 5px;
+	float: left;
+}
+.main .cartlist .listbox table .first a{
+	float: left;
+	height: 28px;
+	line-height: 28px;
+}
+.main .cartlist .listbox table .down,.up{
+	width: 16px;
+    margin-top: 5px;
+    background: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    font-size: 14px;
+    display: block;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+.main .cartlist .listbox table .down{
+	margin-left: 20px;
+}
+.main .cartlist .listbox table .count{
+	float: left;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 5px;
+    width: 36px;
+    background: #fff;
+    border: 1px solid #ddd;
+    outline: none;
+}.main .cartlist .listbox table .sub{
+	width: 110px;
+}
+.main .cartlist .listbox table .atte,.del{
+	color: #1c8bde;
+	margin-right: 5px;
+}
+.main .cartlist .listbox table .atte:hover,.del:hover{
+	text-decoration: none;
+	color: #1C8BDE;
+}
+.main .cartlist .total{
+	width: 1143px;
+	height: 49px;
+	margin: 15px auto 35px;
+	line-height: 49px;
+	background: #e7e9eb;
+	font-size: 14px;
+	overflow: hidden;
+}
+.main .cartlist .total .t_left{
+	float: left;
+}
+.main .cartlist .total i{
+	color: #1c8bde;
+	font-style: normal;
+	margin-left: 17px;
+}
+.main .cartlist .total .t_right{
+	float: right;
+	margin-right: 17px;
+}
+.main .cartlist .total .t_right .computed{
+	font-weight: bold;
+	color: #f74a4a;
+	font-size: 18px;
+}
+.main .favorable .fa_tle{
+	padding: 9px 9px;
+	line-height: 21px;
+}
+.main .favorable .fa_tle .count{
+	color: #de1407;
+	padding: 0 10px 0 3px;
+}
+.main .favorable .fa_tle a{
+	color: #1c8bde;
+	text-decoration: none;
+}
+.main .favorable .fa_main{
+	margin: 20px 18px 50px 0;
+    background: #fffeee;
+    border: 1px solid #ddd;
+    height: 56px;
+    line-height: 56px;
+    display: block;
+    padding: 0 170px 0 32px;
+    color: #222;
+    font-size: 14px;
+    text-align: right;
+    position: relative;
+}
+.main .favorable .fa_main .fa_left{
+	float: left;
+	font-size: 12px;
+	color: red;
+	font-weight: bold;
+}
+.main .favorable .fa_main .fa_left i{
+	color: #3a3f4a;
+	font-style: normal;
+}
+.main .favorable .fa_main .fa_right .fa_computed{
+	color: #f74a4a;
+	font-size: 24px;
+	padding: 0 5px;
+	font-weight: bold;
+}
+.main .favorable .fa_main .fa_sure{
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 146px;
+	height: 56px;
+	color: #fff;
+	background: #f74a4a;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+.main .favorable .fa_main .fa_sure:hover{
+	background: #e43333;
+	text-decoration: none;
+}
+.main .hint{
+	padding-bottom: 22px;
+}
+.main .hint p{
+	font-size: 14px;
+	line-height: 26px;
+	color: #60605f;
+}
+.main .hint .import{
+	color: red;
+}
